@@ -12,6 +12,7 @@
   "author": "Micah Wedemeyer",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "wrenchmode-express": "0.0.1"
   }
 }
