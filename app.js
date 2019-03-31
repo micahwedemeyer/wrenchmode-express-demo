@@ -4,9 +4,9 @@ var wrenchmodeExpress = require('wrenchmode-express');
 var app = express();
 
 app.use(wrenchmodeExpress({
-  jwt: "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJQcm9qZWN0OjIiLCJleHAiOjE0Njc5NDY2OTMsImlhdCI6MTQ2NTM1NDY5MywiaXNzIjoiV3JlbmNobW9kZSIsImp0aSI6ImM3ZjMwZTllLTQ0MzItNGJmYy05MWZlLTIwOGYzOTQ0ZTliNiIsInBlbSI6e30sInN1YiI6IlByb2plY3Q6MiIsInR5cCI6InRva2VuIn0.e5O9W9sTtQIbFNu5zfGyvp396PHeFrPNwwP8_FJE8M-MZ8safc8SuoGY3o6yLpF70ZoNQnHO3sg4FKD4DChl6g",
-  statusProtocol: "https",
-  statusHost: "wrenchmode-staging.herokuapp.com"
+  jwt: "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJQcm9qZWN0OjQzIiwiZXhwIjoxNTU2NjM0ODcxLCJpYXQiOjE1NTQwNDI4NzEsImlzcyI6IldyZW5jaG1vZGUiLCJqdGkiOiI4YTdmYjQ1NC03MjY0LTRkZWMtOGY2MC04NTFmNGExNGIzZTQiLCJwZW0iOnt9LCJzdWIiOiJQcm9qZWN0OjQzIiwidHlwIjoidG9rZW4ifQ.bUi6ADBkcLtfWKeSCZAELsTyka0Tfv5tEGYdsDLvUttYngsB-5Kxfw0Xv0HrTItuXQVz4KmDFJh81WKgNGj14w"
+  // statusProtocol: "https",
+  // statusHost: "wrenchmode-staging.herokuapp.com"
 }));
 
 app.get('/', function (req, res) {
